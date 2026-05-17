@@ -27,3 +27,4 @@ dist-ssr
 
 # Local runtime data
 api/data/
+_export/
