@@ -17,6 +17,7 @@ type Product = {
   title: string
   subtitle: string
   coverColor: string
+  coverImageUrl?: string
   skus: Sku[]
 }
 
@@ -71,6 +72,15 @@ export default function ProductDetail() {
               style={{ background: `${product.coverColor}55` }}
             />
             <div className="relative">
+              <div className="mb-5 overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+                <div className="aspect-square w-full">
+                  {product.coverImageUrl ? (
+                    <img src={product.coverImageUrl} alt={product.title} className="h-full w-full object-cover" />
+                  ) : (
+                    <div className="h-full w-full" style={{ background: `${product.coverColor}55` }} />
+                  )}
+                </div>
+              </div>
               <h1 className="font-display text-3xl tracking-wide">{product.title}</h1>
               <div className="mt-2 text-sm text-white/70">{product.subtitle}</div>
 
@@ -135,4 +145,3 @@ export default function ProductDetail() {
     </AppShell>
   )
 }
-

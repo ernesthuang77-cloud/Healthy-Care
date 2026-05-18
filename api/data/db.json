@@ -1,0 +1,469 @@
+{
+  "users": [
+    {
+      "id": "ebcb888e-d7c8-48bb-ba9a-e132437d8fa6",
+      "phone": "18800000000",
+      "nickname": "运营管理员",
+      "role": "admin",
+      "level": "customer_normal",
+      "inviteCode": "ADMIN",
+      "createdAt": "2026-05-16T10:49:17.925Z"
+    },
+    {
+      "id": "26abe453-8bf3-43c4-8173-750486019cb2",
+      "phone": "18800000001",
+      "nickname": "二级代理示例",
+      "role": "agent",
+      "level": "agent_2",
+      "inviteCode": "YC2",
+      "createdAt": "2026-05-16T10:49:17.926Z"
+    },
+    {
+      "id": "13019074-9018-466b-a4ce-3b9396fadfa3",
+      "phone": "18800000002",
+      "nickname": "一级代理示例",
+      "role": "agent",
+      "level": "agent_1",
+      "inviteCode": "YC1",
+      "createdAt": "2026-05-16T10:49:17.926Z"
+    },
+    {
+      "id": "45a32de1-39dc-456d-819f-6f8fb2daf7f5",
+      "phone": "18800000003",
+      "nickname": "总代示例",
+      "role": "agent",
+      "level": "agent_general",
+      "inviteCode": "YCG",
+      "createdAt": "2026-05-16T10:49:17.926Z"
+    },
+    {
+      "id": "edc16b34-c291-422a-998c-32cf257e1813",
+      "phone": "13900000000",
+      "nickname": "新用户",
+      "role": "customer",
+      "level": "customer_normal",
+      "createdAt": "2026-05-16T10:49:30.291Z"
+    },
+    {
+      "id": "2994d328-29aa-4b54-9ad4-58a43bc52479",
+      "phone": "13700000000",
+      "nickname": "新用户",
+      "role": "customer",
+      "level": "customer_normal",
+      "createdAt": "2026-05-16T11:17:39.418Z"
+    },
+    {
+      "id": "d6d94496-7218-4d13-9f2a-cce8a3a77e6b",
+      "phone": "13700000011",
+      "nickname": "新用户",
+      "role": "customer",
+      "level": "customer_normal",
+      "createdAt": "2026-05-16T11:17:48.347Z"
+    },
+    {
+      "id": "d42543c3-e2d1-4390-9450-c7852038ee16",
+      "phone": "13700000022",
+      "nickname": "新用户",
+      "role": "customer",
+      "level": "customer_normal",
+      "createdAt": "2026-05-16T11:17:58.551Z"
+    },
+    {
+      "id": "41e15549-d14e-4191-a289-b031c7cff4ef",
+      "phone": "13600000001",
+      "nickname": "新用户",
+      "role": "customer",
+      "level": "customer_normal",
+      "createdAt": "2026-05-17T04:32:09.183Z"
+    },
+    {
+      "id": "d4462d97-3d1b-4b29-a8eb-a2882d1910da",
+      "phone": "13600000002",
+      "nickname": "新用户",
+      "role": "customer",
+      "level": "customer_normal",
+      "createdAt": "2026-05-17T04:32:21.710Z"
+    },
+    {
+      "id": "59491033-845c-4fb9-92a9-e187b9d0b648",
+      "phone": "13600000003",
+      "nickname": "新用户",
+      "role": "customer",
+      "level": "customer_normal",
+      "createdAt": "2026-05-17T04:32:33.588Z"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "cd327d68-b147-4083-8a68-d08a7bb545b5",
+      "userId": "41e15549-d14e-4191-a289-b031c7cff4ef",
+      "receiverName": "张三",
+      "receiverPhone": "13600000001",
+      "region": "上海",
+      "detail": "测试路1号",
+      "createdAt": "2026-05-17T04:32:09.356Z"
+    },
+    {
+      "id": "9b03ff2a-b6da-4819-8989-bd67b16fe31a",
+      "userId": "d4462d97-3d1b-4b29-a8eb-a2882d1910da",
+      "receiverName": "张三",
+      "receiverPhone": "13600000002",
+      "region": "上海",
+      "detail": "测试路1号",
+      "createdAt": "2026-05-17T04:32:21.867Z"
+    },
+    {
+      "id": "3d9cc72e-467b-4072-84b2-6bea6bfe0ef6",
+      "userId": "59491033-845c-4fb9-92a9-e187b9d0b648",
+      "receiverName": "张三",
+      "receiverPhone": "13600000003",
+      "region": "上海",
+      "detail": "测试路1号",
+      "createdAt": "2026-05-17T04:32:33.735Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "20b1b587-4073-44ae-ae9d-bc8a30e7d5f1",
+      "title": "御承美·植萃净润洗发露",
+      "subtitle": "草本原生气息，清爽不紧绷，发根更轻盈",
+      "coverColor": "#0B2B21",
+      "status": "active",
+      "createdAt": "2026-05-16T10:49:17.926Z",
+      "coverImageUrl": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=premium%20herbal%20shampoo%20pump%20bottle%2C%20dark%20emerald%20label%2C%20minimal%20off-white%20studio%20background%2C%20soft%20diffused%20lighting%2C%20high-end%20cosmetic%20photography%2C%20realistic&image_size=square_hd"
+    },
+    {
+      "id": "fe95aa16-ce49-46f1-a0f2-3d0f50b09184",
+      "title": "御承美·植萃顺泽护发乳",
+      "subtitle": "柔润顺滑，触感更细腻，发丝更服帖",
+      "coverColor": "#1F3A2E",
+      "status": "active",
+      "createdAt": "2026-05-16T10:49:17.926Z",
+      "coverImageUrl": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=premium%20herbal%20hair%20conditioner%20pump%20bottle%2C%20dark%20emerald%20label%2C%20minimal%20off-white%20studio%20background%2C%20soft%20diffused%20lighting%2C%20high-end%20cosmetic%20photography%2C%20realistic&image_size=square_hd"
+    },
+    {
+      "id": "14ae1de3-7794-4ae0-93d4-6a8381e97f28",
+      "title": "御承美·植萃沁润头皮精华液",
+      "subtitle": "清透质地，轻盈不黏，日常护理更舒适",
+      "coverColor": "#12362B",
+      "status": "active",
+      "createdAt": "2026-05-17T09:57:19.038Z",
+      "coverImageUrl": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=premium%20scalp%20essence%20amber%20dropper%20bottle%2C%20dark%20emerald%20label%2C%20minimal%20off-white%20studio%20background%2C%20soft%20diffused%20lighting%2C%20high-end%20cosmetic%20photography%2C%20realistic&image_size=square_hd"
+    },
+    {
+      "id": "924e514b-ff77-4fb6-a3fb-c18e6f9b6b4e",
+      "title": "御承美·植萃柔顺发膜",
+      "subtitle": "细腻柔润，发丝更服帖，触感更顺滑",
+      "coverColor": "#163B31",
+      "status": "active",
+      "createdAt": "2026-05-17T09:57:19.040Z",
+      "coverImageUrl": "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=premium%20hair%20mask%20jar%20with%20lid%2C%20dark%20emerald%20label%2C%20minimal%20off-white%20studio%20background%2C%20soft%20diffused%20lighting%2C%20high-end%20cosmetic%20photography%2C%20realistic&image_size=square_hd"
+    }
+  ],
+  "skus": [
+    {
+      "id": "b479868b-80f9-462f-b22b-d6675dd12702",
+      "productId": "20b1b587-4073-44ae-ae9d-bc8a30e7d5f1",
+      "skuName": "300ml",
+      "stockQty": 996,
+      "publicPriceCents": 7900
+    },
+    {
+      "id": "48870111-9f90-42af-b52a-ed19b5307c02",
+      "productId": "fe95aa16-ce49-46f1-a0f2-3d0f50b09184",
+      "skuName": "300ml",
+      "stockQty": 999,
+      "publicPriceCents": 8900
+    },
+    {
+      "id": "90698d27-c2c9-43bf-bb2e-12acee6d647d",
+      "productId": "14ae1de3-7794-4ae0-93d4-6a8381e97f28",
+      "skuName": "60ml",
+      "stockQty": 999,
+      "publicPriceCents": 9900
+    },
+    {
+      "id": "7280a228-65d1-41c4-9f42-686ff79b2216",
+      "productId": "924e514b-ff77-4fb6-a3fb-c18e6f9b6b4e",
+      "skuName": "200g",
+      "stockQty": 999,
+      "publicPriceCents": 10900
+    }
+  ],
+  "priceRules": [
+    {
+      "id": "0688ca53-86cb-404a-a3bb-ab2c5abf284e",
+      "skuId": "b479868b-80f9-462f-b22b-d6675dd12702",
+      "role": "customer",
+      "level": "customer_vip",
+      "priceCents": 6900
+    },
+    {
+      "id": "1e867879-6de9-4900-adf1-c83fba7cae84",
+      "skuId": "48870111-9f90-42af-b52a-ed19b5307c02",
+      "role": "customer",
+      "level": "customer_vip",
+      "priceCents": 7900
+    },
+    {
+      "id": "1632e9ec-8bb1-4410-be74-08da3c1c123e",
+      "skuId": "b479868b-80f9-462f-b22b-d6675dd12702",
+      "role": "agent",
+      "level": "agent_2",
+      "priceCents": 5900
+    },
+    {
+      "id": "782e7df8-35d9-46cb-bac6-05583275edb3",
+      "skuId": "48870111-9f90-42af-b52a-ed19b5307c02",
+      "role": "agent",
+      "level": "agent_2",
+      "priceCents": 6900
+    },
+    {
+      "id": "e5a5d93b-c3a3-4ff2-850b-ada4a1298e95",
+      "skuId": "b479868b-80f9-462f-b22b-d6675dd12702",
+      "role": "agent",
+      "level": "agent_1",
+      "priceCents": 5200
+    },
+    {
+      "id": "3744c70c-1c6e-473c-b16e-30d76d73d407",
+      "skuId": "48870111-9f90-42af-b52a-ed19b5307c02",
+      "role": "agent",
+      "level": "agent_1",
+      "priceCents": 6200
+    },
+    {
+      "id": "7330c5f0-e9ed-4bb8-a869-cf795cd5c755",
+      "skuId": "b479868b-80f9-462f-b22b-d6675dd12702",
+      "role": "agent",
+      "level": "agent_general",
+      "priceCents": 4700
+    },
+    {
+      "id": "143df5a5-40a7-45e6-82f8-a98de0218261",
+      "skuId": "48870111-9f90-42af-b52a-ed19b5307c02",
+      "role": "agent",
+      "level": "agent_general",
+      "priceCents": 5700
+    },
+    {
+      "id": "5be3f15f-0493-463b-a7f8-233da1fa4e33",
+      "skuId": "90698d27-c2c9-43bf-bb2e-12acee6d647d",
+      "role": "customer",
+      "level": "customer_vip",
+      "priceCents": 8900
+    },
+    {
+      "id": "f4241bbb-54f3-4d43-91ed-254e1e72ae92",
+      "skuId": "90698d27-c2c9-43bf-bb2e-12acee6d647d",
+      "role": "agent",
+      "level": "agent_2",
+      "priceCents": 7900
+    },
+    {
+      "id": "55236794-5d08-4eef-91c8-73b55b65edcd",
+      "skuId": "90698d27-c2c9-43bf-bb2e-12acee6d647d",
+      "role": "agent",
+      "level": "agent_1",
+      "priceCents": 7200
+    },
+    {
+      "id": "fb381317-7408-4f37-a478-06f9626030a6",
+      "skuId": "90698d27-c2c9-43bf-bb2e-12acee6d647d",
+      "role": "agent",
+      "level": "agent_general",
+      "priceCents": 6700
+    },
+    {
+      "id": "e0d2eabe-5e23-4cfa-8189-9a694424ee01",
+      "skuId": "7280a228-65d1-41c4-9f42-686ff79b2216",
+      "role": "customer",
+      "level": "customer_vip",
+      "priceCents": 9900
+    },
+    {
+      "id": "1ac95dc3-f4fe-4575-acdb-4fea2bc58095",
+      "skuId": "7280a228-65d1-41c4-9f42-686ff79b2216",
+      "role": "agent",
+      "level": "agent_2",
+      "priceCents": 8900
+    },
+    {
+      "id": "92d21f66-a893-450f-98ea-df0ffff8e68b",
+      "skuId": "7280a228-65d1-41c4-9f42-686ff79b2216",
+      "role": "agent",
+      "level": "agent_1",
+      "priceCents": 8200
+    },
+    {
+      "id": "306446fc-3641-42a2-8eb8-b227bca8fc05",
+      "skuId": "7280a228-65d1-41c4-9f42-686ff79b2216",
+      "role": "agent",
+      "level": "agent_general",
+      "priceCents": 7700
+    }
+  ],
+  "referrals": [
+    {
+      "id": "73e9ce8e-a63f-4e22-8083-2d9e70778047",
+      "agentUserId": "26abe453-8bf3-43c4-8173-750486019cb2",
+      "customerUserId": "edc16b34-c291-422a-998c-32cf257e1813",
+      "bindType": "register",
+      "boundAt": "2026-05-16T10:49:30.291Z"
+    },
+    {
+      "id": "b4cc45fc-0d82-4856-a921-b3598512ce17",
+      "agentUserId": "26abe453-8bf3-43c4-8173-750486019cb2",
+      "customerUserId": "d6d94496-7218-4d13-9f2a-cce8a3a77e6b",
+      "bindType": "register",
+      "boundAt": "2026-05-16T11:17:48.491Z"
+    },
+    {
+      "id": "5c975a7f-e468-4756-a3cd-7bf07648beaa",
+      "agentUserId": "26abe453-8bf3-43c4-8173-750486019cb2",
+      "customerUserId": "d42543c3-e2d1-4390-9450-c7852038ee16",
+      "bindType": "register",
+      "boundAt": "2026-05-16T11:17:58.818Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "c434988a-4f40-45dd-a568-40b0730b74a7",
+      "userId": "41e15549-d14e-4191-a289-b031c7cff4ef",
+      "status": "confirmed",
+      "totalCents": 7900,
+      "priceSnapshot": {
+        "role": "customer",
+        "level": "customer_normal"
+      },
+      "addressSnapshot": {
+        "receiverName": "张三",
+        "receiverPhone": "13600000001",
+        "region": "上海",
+        "detail": "测试路1号"
+      },
+      "createdAt": "2026-05-17T04:32:09.665Z",
+      "confirmedAt": "2026-05-17T04:32:10.016Z"
+    },
+    {
+      "id": "431d44f5-dc9f-4660-9e26-c23ac07fc3c4",
+      "userId": "d4462d97-3d1b-4b29-a8eb-a2882d1910da",
+      "status": "confirmed",
+      "totalCents": 7900,
+      "priceSnapshot": {
+        "role": "customer",
+        "level": "customer_normal"
+      },
+      "addressSnapshot": {
+        "receiverName": "张三",
+        "receiverPhone": "13600000002",
+        "region": "上海",
+        "detail": "测试路1号"
+      },
+      "createdAt": "2026-05-17T04:32:22.159Z",
+      "confirmedAt": "2026-05-17T04:32:22.518Z"
+    },
+    {
+      "id": "bbc6651d-12ba-415d-885d-634345d8d322",
+      "userId": "59491033-845c-4fb9-92a9-e187b9d0b648",
+      "status": "confirmed",
+      "totalCents": 7900,
+      "priceSnapshot": {
+        "role": "customer",
+        "level": "customer_normal"
+      },
+      "addressSnapshot": {
+        "receiverName": "张三",
+        "receiverPhone": "13600000003",
+        "region": "上海",
+        "detail": "测试路1号"
+      },
+      "createdAt": "2026-05-17T04:32:34.022Z",
+      "confirmedAt": "2026-05-17T04:32:34.388Z"
+    }
+  ],
+  "orderItems": [
+    {
+      "id": "2cca6541-9690-4102-8a50-376e3a08d4de",
+      "orderId": "c434988a-4f40-45dd-a568-40b0730b74a7",
+      "skuId": "b479868b-80f9-462f-b22b-d6675dd12702",
+      "titleSnapshot": "御承美·植萃净润洗发露",
+      "skuNameSnapshot": "300ml",
+      "qty": 1,
+      "itemPriceCents": 7900
+    },
+    {
+      "id": "a3aa4bea-c3a8-400b-8673-13008b718f84",
+      "orderId": "431d44f5-dc9f-4660-9e26-c23ac07fc3c4",
+      "skuId": "b479868b-80f9-462f-b22b-d6675dd12702",
+      "titleSnapshot": "御承美·植萃净润洗发露",
+      "skuNameSnapshot": "300ml",
+      "qty": 1,
+      "itemPriceCents": 7900
+    },
+    {
+      "id": "15bc1dd2-6e74-411e-a041-d822b6399e12",
+      "orderId": "bbc6651d-12ba-415d-885d-634345d8d322",
+      "skuId": "b479868b-80f9-462f-b22b-d6675dd12702",
+      "titleSnapshot": "御承美·植萃净润洗发露",
+      "skuNameSnapshot": "300ml",
+      "qty": 1,
+      "itemPriceCents": 7900
+    }
+  ],
+  "shipments": [],
+  "radarTemplate": [
+    {
+      "id": "02236110-e951-42de-9cc7-1a24bdf670e2",
+      "key": "acquire",
+      "title": "获客",
+      "maxScore": 10
+    },
+    {
+      "id": "96fd35d3-be98-4e0d-8bf8-ce991718a605",
+      "key": "convert",
+      "title": "转化",
+      "maxScore": 10
+    },
+    {
+      "id": "bb4b5d56-c9b7-4fb4-bc8d-3f24c1b6041d",
+      "key": "repurchase",
+      "title": "复购",
+      "maxScore": 10
+    },
+    {
+      "id": "bf022878-57e4-4874-ba5e-555138357145",
+      "key": "content",
+      "title": "内容分享",
+      "maxScore": 10
+    },
+    {
+      "id": "b3211e83-ac74-44e1-b3f8-e0f2001dd0ed",
+      "key": "team",
+      "title": "团队协作",
+      "maxScore": 10
+    }
+  ],
+  "radarAssessments": [],
+  "agentCases": [
+    {
+      "id": "0266e3d6-759c-4e1a-8c33-f210ab07cfcb",
+      "userId": "26abe453-8bf3-43c4-8173-750486019cb2",
+      "title": "客户想要更清爽触感时如何推荐组合？",
+      "difficulty": "medium",
+      "solution": "先问清使用频率与头皮感受，再建议洗发露用量分区控制，搭配护发乳只涂发中发尾；强调“触感更轻盈、顺滑不压塌”。",
+      "likeCount": 0,
+      "createdAt": "2026-05-17T09:57:19.040Z"
+    },
+    {
+      "id": "02f16a5a-282f-4d3f-a726-296055b995c2",
+      "userId": "26abe453-8bf3-43c4-8173-750486019cb2",
+      "title": "客户对价格敏感时怎么引导体验？",
+      "difficulty": "hard",
+      "solution": "不直接谈功效，先让客户描述当前困扰与想要的“手感/香气/清爽度”；给出一套可执行的使用方法与周期建议，用体验结果替代承诺式话术。",
+      "likeCount": 0,
+      "createdAt": "2026-05-17T09:57:19.040Z"
+    }
+  ]
+}
